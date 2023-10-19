@@ -7,24 +7,24 @@ const fs = require('fs')
 const chalk = require('chalk')
 
 /* ~~~~~~~~~ WEB API ~~~~~~~~~ */
-global.lol = '' // https://api.lolhuman.xyz
-global.xzn = '' // https://xnz.wtf
+global.lol = 'genapi_234' // https://api.lolhuman.xyz
+global.xzn = 'genapi_234' // https://xnz.wtf
 /* ~~~~~~~~~ SETTINGS OWNER ~~~~~~~~~ */
-global.numberowner = '6289513081052' // Owner Utama
-global.owner = ['6289513081052', '6283838530788'] // Owner Lainnya
-global.namaowner = 'Arxzy お-ぎ' // Nama Owner
-global.premium = ["6289513081052"] // Premium User
-global.nobot = '6289513081052'
+global.numberowner = '6285692651794' // Owner Utama
+global.owner = ['6285692651794', '6285692651794'] // Owner Lainnya
+global.namaowner = 'ARK INDO GEN' // Nama Owner
+global.premium = ["6285692651794"] // Premium User
+global.nobot = '62895340160854'
 /* ~~~~~~~~~ SETTINGS BOT ~~~~~~~~~ */
-global.namabot = 'Arxzy-MD' // NickBot
+global.namabot = 'GEN BOT' // NickBot
 global.typemenu = 'v2' // 'v1' > 'v2' > 'v3' > 'v4'
 global.typereply = 'v1' // 'v1' > 'v2'
-global.autoread = false // ReadChat
-global.autobio = false // AutoBio
+global.autoread = true // ReadChat
+global.autobio = true // AutoBio
 global.autoblok212 = true // AutoBlock Nomer +212
 global.onlyindo = false  // AutoBlock Selain Nomer Indo
 global.packname = 'Created By' // Watermark Sticker
-global.author = 'Arxzy ダ' // Watermark Sticker
+global.author = '©GEN ARK' // Watermark Sticker
 /* ~~~~~~~~~ MESSAGES ~~~~~~~~~ */
 global.mess = {
     done: 'Done ✅',
@@ -41,7 +41,7 @@ global.mess = {
 global.thumb = fs.readFileSync('./media/quoted.jpg')
 global.menu = fs.readFileSync('./media/menu.jpg')
 /* ~~~~~~~~~ EDITS LINK ~~~~~~~~~ */
-global.link = 'https://chat.whatsapp.com/LfBvDxQujrLHihSRI6TCIZ'
+global.link = 'https://chat.whatsapp.com/LuW1gRzVPeS5JKYFAwukqD'
 /* ~~~~~~~~~ END SYSTEM ~~~~~~~~~ */
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
